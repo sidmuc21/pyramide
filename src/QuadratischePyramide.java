@@ -17,6 +17,8 @@ public class QuadratischePyramide extends Pyramide {
         double surfarea = 0.5 * perimeter * slantheight;
         return basearea + surfarea;
     }
+
+
     public double getSeite() {
         return seite;
     }
